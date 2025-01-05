@@ -183,7 +183,9 @@ body {
     margin-left: 0;
   }
   .iframc {
-    display: block;
-    margin: -20 auto;
-  }
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
 } 
