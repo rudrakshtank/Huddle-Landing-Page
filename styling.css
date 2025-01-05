@@ -193,6 +193,7 @@ body {
     display: block;
     align-items: center;
     margin-right: 80px;
+    margin-left: 80px;
   }
   .btns-container {
     display: flex;
