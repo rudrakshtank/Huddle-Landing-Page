@@ -31,7 +31,7 @@ body {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  cursor: grab;
+  cursor:grab;
 }
 .btn-primary {
   padding: 10px 30px;
@@ -41,9 +41,6 @@ body {
   color: white;
   font-size: 16px;
   cursor: pointer;
-  display: block;
-  margin: 20px auto; /* Center the button horizontally */
-  text-align: center; /* Align text inside the button */
 }
 .btns {
   background-color: white;
@@ -148,9 +145,7 @@ body {
   text-align: center;
 }
 .iframc {
-  display: block;
-  margin: 20px auto; /* Center the iframe horizontally */
-  width: fit-content; /* Adjusts the width to fit its content */
+  margin-left: 90px;
 }
 
 /* Responsive Design */
@@ -161,7 +156,7 @@ body {
   }
   .navbar {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
   .btns {
     background-color: white;
@@ -198,12 +193,7 @@ body {
   }
   .iframc {
     display: block;
-    margin: 10px auto; /* Center the iframe horizontally on small screens */
-    width: fit-content;
-  }
-  .btn-primary {
-    display: block;
-    margin: 10px auto; /* Center the button horizontally on small screens */
+    margin: -20 auto;
   }
   .btns-container {
     display: flex;
@@ -213,6 +203,6 @@ body {
   .btns {
     display: block;
     margin: 0 auto; /* Centers horizontally */
-    text-align: center; /* Centers the text inside the button */
+    text-align: center; /* Centers the text inside the button */
   }
-}
+} 
