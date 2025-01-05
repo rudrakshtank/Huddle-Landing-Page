@@ -31,7 +31,7 @@ body {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  cursor:grab;
+  cursor: grab;
 }
 .btn-primary {
   padding: 10px 30px;
@@ -41,6 +41,7 @@ body {
   color: white;
   font-size: 16px;
   cursor: pointer;
+  margin-top: 20px; /* Added this to move the button downward */
 }
 .btns {
   background-color: white;
@@ -146,6 +147,8 @@ body {
 }
 .iframc {
   margin-left: 90px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Responsive Design */
@@ -203,6 +206,6 @@ body {
   .btns {
     display: block;
     margin: 0 auto; /* Centers horizontally */
-    text-align: center; /* Centers the text inside the button */
+    text-align: center; /* Centers the text inside the button */
   }
-} 
+}
