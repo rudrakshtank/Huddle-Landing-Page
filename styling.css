@@ -163,6 +163,7 @@ body {
   }
   .btn-primary{
     margin-bottom: 20px;
+    margin-top: 40px;
   }
   .hero {
     flex-direction: column;
@@ -190,7 +191,8 @@ body {
   }
   .iframc {
     display: block;
-    margin: -20 auto;
+    align-items: center;
+    margin-right: 80px;
   }
   .btns-container {
     display: flex;
