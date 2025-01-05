@@ -31,7 +31,7 @@ body {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  cursor:grab;
+  cursor: grab;
 }
 .btn-primary {
   padding: 10px 30px;
@@ -41,6 +41,9 @@ body {
   color: white;
   font-size: 16px;
   cursor: pointer;
+  display: block;
+  margin: 20px auto; /* Center the button horizontally */
+  text-align: center; /* Align text inside the button */
 }
 .btns {
   background-color: white;
@@ -145,7 +148,9 @@ body {
   text-align: center;
 }
 .iframc {
-  margin-left: 90px;
+  display: block;
+  margin: 20px auto; /* Center the iframe horizontally */
+  width: fit-content; /* Adjusts the width to fit its content */
 }
 
 /* Responsive Design */
@@ -193,7 +198,12 @@ body {
   }
   .iframc {
     display: block;
-    margin: -20 auto;
+    margin: 10px auto; /* Center the iframe horizontally on small screens */
+    width: fit-content;
+  }
+  .btn-primary {
+    display: block;
+    margin: 10px auto; /* Center the button horizontally on small screens */
   }
   .btns-container {
     display: flex;
@@ -203,6 +213,6 @@ body {
   .btns {
     display: block;
     margin: 0 auto; /* Centers horizontally */
-    text-align: center; /* Centers the text inside the button */
+    text-align: center; /* Centers the text inside the button */
   }
-} 
+}
