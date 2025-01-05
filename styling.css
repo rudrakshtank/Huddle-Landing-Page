@@ -159,7 +159,7 @@ body {
     align-items: center;
   }
   p.paraclass{
-    margin-bottom: 40px;
+    line-height: 20px;
   }
   .btns {
     background-color: white;
