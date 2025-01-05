@@ -41,7 +41,6 @@ body {
   color: white;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 20px; /* Added this to move the button downward */
 }
 .btns {
   background-color: white;
@@ -161,14 +160,8 @@ body {
     flex-direction: column;
     align-items: center;
   }
-  .btns {
-    background-color: white;
-    color: black;
-    padding: 10px 30px;
-    border: none;
-    border-radius: 50px;
-    font-size: 16px;
-    cursor: pointer;
+  .btn-primary{
+    margin-top: 20px;
   }
   .hero {
     flex-direction: column;
@@ -207,6 +200,5 @@ body {
     display: block;
     margin: 0 auto; /* Centers horizontally */
     text-align: center; /* Centers the text inside the button */
-    margin-top: 50px;
   }
 }
