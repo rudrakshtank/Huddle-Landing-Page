@@ -147,7 +147,7 @@ body {
 .iframc {
   margin-left: 100px;
   display: flex;
-  margin-top: 110px;
+  margin-top: 115px;
 }
 
 /* Responsive Design */
@@ -197,11 +197,11 @@ body {
   .btns-container {
     display: flex;
     justify-content: center;
-    align-items: center; /* For vertical alignment if needed */
+    align-items: center; 
   }
   .btns {
     display: block;
-    margin: 0 auto; /* Centers horizontally */
-    text-align: center; /* Centers the text inside the button */
+    margin: 0 auto; 
+    text-align: center; 
   }
 }
