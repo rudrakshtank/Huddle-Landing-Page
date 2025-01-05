@@ -186,6 +186,16 @@ body {
   display: block;
   margin: 0 auto;
   width: fit-content;
-}
+  }
+  .iframc-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .iframc {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
 
 } 
