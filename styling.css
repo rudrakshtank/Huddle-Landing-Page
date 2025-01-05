@@ -157,7 +157,9 @@ body {
   .navbar {
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+  }
+  p.paraclass{
+    margin-bottom: 40px;
   }
   .btns {
     background-color: white;
